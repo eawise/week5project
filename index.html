@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 5 Project</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase|Magra|Poiret+One" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+<body>
+    <div class="wrapper" class="overlay">
+        <header>
+            <h1>Do You <span class="discoTitle">Disco</span>?</h1>
+            <h2>Disco inspired music</h2>
+       </header>  
+        <form id="form">
+            <div class="question question1">
+                <p class="pEra">Which era?</p>
+                    <input type="radio" name="era" id="oldera" value="oldera">
+                    <label for="oldera">Old Disco</label>
+                    <input type="radio" name="era" id="newera" value="newera">
+                    <label for="newera">Nu Disco</label>
+            </div> 
+            <div class="question question2">
+                <p>What do you like?</p>
+                    <input type="radio" name="like" id="easy" value="easy">
+                    <label for="easy">Easy & cheesy</label>
+                    <input type="radio" name="like" id="noteasy" value="noteasy">
+                    <label for="noteasy">Dig a little deeper</label> 
+            </div>
+            <div class="question question3">
+                <p>What kind of <span class="dancerRed">dancer</span> are you?</p>
+                    <input type="radio" name="dance" id="groovin" value="groovin">
+                    <label for="groovin">Groovin' </label>
+                    <input type="radio" name="dance" id="shake" value="shake">
+                    <label for="shake">Shake that booty</label>
+                    <input type="radio" name="dance" id="flail" value="flail">
+                    <label for="flail">Full flail</label>
+            </div>
+            <div class="submit-container">
+                <input type="submit" value="Make me a playlist!">
+                <input type="reset" value="Reset">
+                <section class="results"></section>
+            </div>    
+            <div class="playlist-container">
+            </div>
+        </form>      
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
